@@ -1,2 +1,2 @@
 #!/bin/bash
-declare $CFILE="main.c" | gcc -E #CFILE -o c
+echo $CFILE | gcc -E $CFILE -o c
