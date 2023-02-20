@@ -8,12 +8,16 @@
  * Return: 0(Success)
  */
 
+char enterChar(void);
+
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
+	char x;
+
+	for (x = 'A'; x <= 'Z'; x++)
 	{
-		x = tolower(x);
 		putchar(x);
+		putchar('\n');
 	}
 	return (0);
 }
