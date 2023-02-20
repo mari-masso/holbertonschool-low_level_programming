@@ -13,12 +13,11 @@ char enterChar(void);
 
 int main(void)
 {
-	int x;
+	char x;
 
 	for (x = 'A'; x <= 'Z'; x++)
 	{
-		int tolower(int x);
-		putchar(x);
+		putchar(tolower(x));
 	}
 	putchar('\n');
 	return (0);
