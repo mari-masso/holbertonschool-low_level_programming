@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 
 /**
  * main - Entry point
@@ -12,12 +13,13 @@ char enterChar(void);
 
 int main(void)
 {
-	char x;
+	int x;
 
 	for (x = 'A'; x <= 'Z'; x++)
 	{
+		int tolower(int x);
 		putchar(x);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
