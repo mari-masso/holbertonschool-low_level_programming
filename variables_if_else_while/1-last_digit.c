@@ -5,7 +5,8 @@
 /**
  * main - Entry point
  *
- * Description: 'Prints whether a digit is 0, greater than 5 or less than 6 and not 0'
+ * Description: 'Prints whether a digit is 0,
+ * greater than 5 or less than 6 and not 0'
  *
  * Return: 0(Success)
  */
