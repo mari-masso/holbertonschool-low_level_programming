@@ -17,7 +17,7 @@ int main(void)
 	{
 		if (x == 'd' || x == 'p')
 		{
-			x = x + 2;
+			x = x++;
 		}
 		{
 			putchar(x);
