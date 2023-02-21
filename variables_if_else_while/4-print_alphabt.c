@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: '
+ * Description: 'print the
+ * alphabet without the letterq or e'.
  *
  *Return: 0(Success)
  */
@@ -14,11 +15,14 @@ int main(void)
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
-		if (x != 'q' || x != 'e')
+		if (x == 'd' || x == 'p')
+		{
+			x = x + 2;
+		}
 		{
 			putchar(x);
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
