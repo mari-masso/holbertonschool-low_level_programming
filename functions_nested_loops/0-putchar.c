@@ -1,20 +1,17 @@
+#include "main.h"
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
- * Description: 'Printing the
- * string _putchar'
+ * Description: 'Print the string
+ * _putchar'
  *
  * Return: 0(Success)
  *
  */
 
-int main(void)
+void print__putchar()
 {
-	int ch = 95;
-
-	printf("%cputchar", ch);
-	putchar('\n');
-	return (0);
+	print__putchar(x);
+	return 0;
 }
