@@ -3,15 +3,14 @@
 /**
  * main - Entry point
  *
- * Description: 'Print the string
+ * Description: 'use the function
  * _putchar'
  *
  * Return: 0(Success)
  *
  */
-
-void print__putchar()
+int main(void)
 {
-	print__putchar(x);
-	return 0;
+	printf("_putchar\n");
+	return (0);
 }
