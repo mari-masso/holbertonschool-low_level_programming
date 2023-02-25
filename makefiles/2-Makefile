@@ -3,7 +3,7 @@ all: program
 CC = gcc
 SRC = main.c school.c
 NAME = school
-OBJ = $(CC) -c $(OBJ)
+OBJ = *.o
 
 program: $(SRC) $(OBJ)
 	$(CC) -c $(SRC)
