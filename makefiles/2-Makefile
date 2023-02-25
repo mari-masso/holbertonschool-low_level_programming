@@ -2,9 +2,8 @@ all: program
 
 CC = gcc
 SRC = main.c school.c
-OBJ = main.o school.o
 NAME = school
 
-program: $(SRC)
+program: $(SRC) $(OBJ)
 	$(CC) -c $(SRC)
 	$(CC) $(OBJ) -o $(NAME)
