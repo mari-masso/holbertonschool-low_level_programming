@@ -5,7 +5,7 @@
  * @n: n is the pointer to p variable
  * Description: Write a function that
  * takes a pointer to an int as parameter
- i* and updates the value it points to to 98.
+ * and updates the value it points to to 98.
  *
  */
 
